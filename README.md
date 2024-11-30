@@ -12,7 +12,7 @@ Hangzhou Dianzi University IMOP-lab
 <div align=center>
   <img src="https://github.com/IMOP-lab/RONet/blob/main/figures/stru.png">
 </div>
-<p align=center>
+<p align=left>
   Figure 1: The architecture of the proposed Recurrent Optimization Network (RONet) for RGB-T salient object detection, encompassing the Recurrent Optimization (RO) module for multi-modal feature refinement, the Multi-scale Semantic (MS) module for spatial information extraction, and the Detail Enhancement (DE) module for fine-grained feature enhancement, collectively facilitating high-quality salient object detection across multi-modal inputs.
 </p>
 
