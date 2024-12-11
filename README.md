@@ -83,8 +83,6 @@ The Detail Enhancement Module focuses on refining the spatial and boundary detai
 2. Progressive feature refinement using Channel Attention (CA) for branch-wise optimization.
 3. Fusion of all branch outputs to generate the final enhanced features.
 
-------
-
 ## Usage Instructions and Details
 
 ### Installation
