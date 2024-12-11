@@ -100,25 +100,21 @@ The Detail Enhancement Module focuses on refining the spatial and boundary detai
 
 1. Clone the repository:
 
-   ```
-   bash复制代码git clone https://github.com/IMOP-lab/RONet.git
+   ```bash
+   git clone https://github.com/IMOP-lab/RONet.git
    cd RONet
    ```
 
 2. Install dependencies:
 
-   ```
-   bash
-   
-   
-   复制代码
+   ```bash
    pip install -r requirements.txt
    ```
 
 3. Prepare datasets (e.g., **VT5000**, **VT1000**, **VT821**) and organize them as follows:
 
-   ```
-   bash复制代码datasets/
+   ```bash
+   datasets/
    ├── VT5000/
    │   ├── train/
    │   ├── test/
@@ -132,11 +128,7 @@ The Detail Enhancement Module focuses on refining the spatial and boundary detai
 
 Train the model on the VT5000 dataset:
 
-```
-bash
-
-
-复制代码
+```bash
 python train.py --dataset VT5000 --batch_size 16 --epochs 50
 ```
 
@@ -144,11 +136,7 @@ python train.py --dataset VT5000 --batch_size 16 --epochs 50
 
 Evaluate the model on the VT1000 dataset:
 
-```
-bash
-
-
-复制代码
+```bash
 python test.py --dataset VT1000 --weights checkpoints/RONet.pth
 ```
 
