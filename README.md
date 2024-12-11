@@ -26,6 +26,7 @@ The key features of **RONet** include:
 <div align=center>
   <img src="https://github.com/IMOP-lab/RONet/blob/main/figures/stru.png">
 </div>
+
 **Figure 1: Network Architecture.** The overall architecture of RONet, comprising the encoder, Recurrent Optimization Module (RO), Multi-Scale Semantic Module (MS), Detail Enhancement Module (DE), and the final decoding process.
 
 **RONet** adopts a typical encoder-decoder network structure, consisting of the following components:
